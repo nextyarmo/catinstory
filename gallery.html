@@ -41,17 +41,22 @@ footer p {
     color: rgb(0, 0, 0);
 }
 img {
-    border-radius:60px;
+    border-radius:10px;
     opacity:0.2;
 } 
 img:hover {
           border: 3px solid navy;
 
           margin: 5px
-          border-radius:90px;
+          border-radius:15px;
           opacity:1;
           transition:all 3s ease-out;
 }
+img:hover::after {
+     border-radius:10px;
+    opacity:0.2;
+     transition:all 3s ease-out;
+}     
 nav:hover{
     opacity:1;
     transition:all 1s ease-out;
