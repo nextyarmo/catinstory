@@ -9,18 +9,19 @@
 <body>
     <style type="text/css">
 BODY {
-     background-color: lightblue
+     background-color: rgb(1,47,58)
 }
 img {
     border-radius:10px;
+    opacity:0.7;
 }                            
 nav {
     margin: 10px;
     padding: 10px;
-    border:  3px solid white;
-    background-color: rgb(236,240,241);
+    border:  3px solid rgb(2,83,112);
+    background-color: rgb(1,47,58);
     border-radius: 10px; 
-    opacity:0.7
+    opacity:1
 }
 nav a {
     margin: 20px;
@@ -31,8 +32,8 @@ nav a {
 footer {
     margin: 10px;
     padding: 10px;
-    border:  3px solid green;
-    background-color: rgb(204,255,0);
+    border:  3px solid darkgreen;
+    background-color: green;
     border-radius: 10px;
 }
 footer p {
@@ -40,32 +41,29 @@ footer p {
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
-img {
-    border-radius:10px;
-    opacity:0.2;
-} 
+iframe {
+        border-radius:60px;
+        opacity:0.5;
+}
+iframe:hover {
+              opacity:1;
+              transition:all 3s ease-out;
+}                          
 img:hover {
-          border: 3px solid navy;
-
-          margin: 5px
-          border-radius:15px;
-          opacity:1;
-          transition:all 3s ease-out;
-}
-img:hover::after {
-     border-radius:10px;
-    opacity:0.2;
-     transition:all 3s ease-out;
-}     
-nav:hover{
+    border-radius:10px;
     opacity:1;
-    transition:all 1s ease-out;
-
+    transition:all 5s ease-out;
 }
- a {
-   margin:5;
-   padding:5;
-     }               
+        
+h2 {
+    color:white;
+}        
+h1 {
+   color:white;  
+}
+p {
+   color:white;
+}
 </style>
     
     <center><nav><h1>Главная</h1><br>
